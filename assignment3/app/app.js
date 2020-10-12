@@ -8,18 +8,18 @@ function initListeners(){
 }
 
 function initView(){
-    $.get('../views/nav.html', function(data){
+    $.get('..views/nav.html', function(data){
         $('#nav').html(data);
         initListeners();
     })
-    $.get('../views/carousel.html', function(data){
+    $.get('..views/carousel.html', function(data){
         $('#carousel').html(data);
     })
-    $.get('../views/home/home.html', function(data){
+    $.get('..views/home/home.html', function(data){
         $('#app').html(data);
         $('.main-carousel').flickity({
             cellAlign: 'center',
-            wrapAround: true,           
+            wrapAround: true,
           });
     })
 }
