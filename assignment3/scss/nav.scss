@@ -1,0 +1,20 @@
+.title{
+    font-size: 2rem;
+    background-color: #44535e;
+    text-align: center;
+    color: white;
+}
+
+nav{
+    background-color: #44535e;
+    height: 50px;
+    line-height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
