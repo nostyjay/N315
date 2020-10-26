@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+nav {
+  width: 200px;
+  height: 80px;
+  position: fixed;
+  right: 30px;
+  top: 30px;
+  display: flex;
+}
+nav .links {
+  width: 50px;
+  height: 80px;
+  background-color: #969696;
+}
+nav .links a {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+nav .navicon {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+@media all and (max-width: 2200px) {
+  nav {
+    height: 50px;
+    width: 50px;
+    display: flex;
+  }
+  nav .links {
+    height: 50%;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    display: none;
+  }
+  nav .navicon {
+    display: flex;
+    flex-direction: column;
+  }
+  nav .navicon .line {
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    border-radius: 2px;
+    margin: auto;
+  }
+}
+
+.navMobileView {
+  width: 50%;
+  height: 80%;
+  background-color: #00c8c8;
+}
