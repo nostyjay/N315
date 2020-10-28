@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-title>
+      <img src="assets/images/logo.png" />
+    </ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="addChecklist()">
+        <ion-icon slot="icon-only" name="add-circle"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list lines="none">
+    <ion-item-sliding *ngFor="let checklist of dataService.checklists">
+      <ion-item routerLink="/checklist/{{checklist.id}}" routerDirection="forward">
+        <ion-label>
+          {{checklist.title}}
+        </ion-label>
+        <span>{{checklist.items.length}} Items</span>
+      </ion-item>
+      <ion-item-options slot="end">
+        <ion-item-option 
+        color="light"
+        expandable="true" 
+        (click)="renameChecklist(checklist)">
+      <ion-icon slot="icon-only" name="clipboard"></ion-icon>
+      </ion-item-option>
+      <ion-item-option 
+      color="danger"
+      expandable="true" 
+      (click)="removeChecklist(checklist)">
+    <ion-icon slot="icon-only" name="trash"></ion-icon>
+    </ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+</ion-content>
