@@ -18,6 +18,25 @@
 ##### -- Signup implementation
 ##### -- Bug fixes
 ##### -- Correct Edit page functionalities
+##
+#### HOW IT WORKS:
+##### On load, you will be brought to the home page. Use the navigation bar at the top of the
+##### screen to find your way throughout the website. The browse page allows you to view recipes
+##### pulled from the database. None of the information on this website is hard-coded, so what you
+##### see is directly manipulated by the model which pulls information directly from the database.
+##### You will notice that you are unable to access the create a recipe page until you have logged in
+##### on the login page. In order to login, you can use 'admin' as both the username and password for now.
+##### SIGN UP CURRENTLY DOES NOT WORK. Once you are logged in, you may now access the create a recipe page
+##### and the 'your recipes' page. Try creating a recipe! You should notice that the recipe automatically 
+##### appears on the your recipes page after you create it... You should also notice that you can delete
+##### your new recipe if you so choose. YOU CAN TRY TO EDIT THE RECIPE, BUT MAY NOTICE THAT SOME
+##### INFORMATION MAY BE LOST. In order to logout once you are finished managing your recipes, click
+##### the logout button on the navigation bar...
+##
+#### THANK YOU FOR CHECKING OUT JUNGLE COOK
+##### Thank you so much for checking out jungle cook! If you have any questions or comments,
+##### please contact me! Have a wonderfull day!... or night :)
+
 
 ##
 ##### N315
