@@ -1,5 +1,6 @@
 ####
-## Jungle Cook: https://in-info-web4.informatics.iupui.edu/~nj16/junglecook/
+## Jungle Cook: 
+### https://in-info-web4.informatics.iupui.edu/~nj16/junglecook/
 
 #### DESCRIPTION:
 ##### Jungle cook is a CRUD application fitted to work on both personal computers
@@ -12,7 +13,7 @@
 ##### -- The site is currently only a template and has NO storage implementation
 ##### -- RECIPES WILL RESET ON PAGE RELOAD
 ##
-## TBD:
+#### TBD:
 ##### -- Storage implementation to keep users and recipes on reload
 ##### -- Signup implementation
 ##### -- Bug fixes
