@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  background-color: #d9ebe9; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px; }
+
+.title {
+  font-size: 2rem;
+  background-color: #44535e;
+  text-align: center;
+  color: white; }
+
+nav {
+  background-color: #44535e;
+  height: 50px;
+  line-height: 50px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around; }
+  nav a {
+    text-decoration: none;
+    color: white; }
+
+.home {
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around; }
+
+.wcards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 550px;
+  padding-bottom: 16px;
+  border-bottom: 3px solid black; }
+  .wcards h1 {
+    font-family: 'Fira Sans', sans-serif;
+    width: 200px;
+    border-bottom: 3px solid black; }
+
+.card {
+  display: flex;
+  justify-content: space-between; }
+
+.weatherCard {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  background: linear-gradient(to top, red, orange);
+  width: 250px;
+  height: 300px;
+  border-radius: 15px;
+  text-align: center;
+  color: white; }
+  .weatherCard .city {
+    font-size: 1.6rem; }
+  .weatherCard .country {
+    font-size: 1.2rem; }
+  .weatherCard img {
+    width: 45%;
+    margin: auto; }
+  .weatherCard .temp {
+    font-size: 1.6rem; }
+  .weatherCard .condition {
+    font-size: 1.2rem; }
+
+.sportsWrap {
+  display: flex;
+  flex-direction: column; }
+  .sportsWrap h1 {
+    font-family: 'Fira Sans', sans-serif;
+    width: 200px;
+    border-bottom: 3px solid black; }
+  .sportsWrap .sportsCard {
+    display: flex; }
+
+.sportsArt {
+  font-family: 'Fira Sans', sans-serif;
+  width: 300px;
+  border-bottom: 3px solid black;
+  margin: 30px; }
+  .sportsArt h4 {
+    margin-bottom: 6px; }
+  .sportsArt img {
+    width: 250px; }
+
+.econArt {
+  font-family: 'Fira Sans', sans-serif;
+  margin: 40px auto;
+  width: 600px;
+  border-bottom: 3px solid black; }
+  .econArt h4 {
+    margin-bottom: 6px; }
+  .econArt img {
+    width: 600px; }
+
+.articles {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 100px; }
+  .articles h1 {
+    font-family: 'Fira Sans', sans-serif;
+    width: 300px;
+    border-bottom: 3px solid black;
+    margin-left: 150px; }
+  .articles .artCard {
+    display: flex; }
+
+.main-carousel {
+  width: 80%;
+  margin: 60px auto;
+  height: 300px;
+  border-radius: 15px;
+  font-family: 'Fira Sans', sans-serif; }
+  .main-carousel h4 {
+    margin-bottom: 6px;
+    text-align: right; }
+  .main-carousel .carousel-cell {
+    width: 30%;
+    height: 250px;
+    margin-right: 10px;
+    border-radius: 5px; }
+    .main-carousel .carousel-cell img {
+      width: 500px; }
+  .main-carousel .carousel-cell:before {
+    display: block;
+    text-align: center;
+    line-height: 400px;
+    font-size: 80px;
+    color: white; }
+
+.weatherContain {
+  justify-content: space-around;
+  display: flex; }
+  .weatherContain .weatherCard2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    background: linear-gradient(to top, blue, skyblue);
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+    text-align: center;
+    color: white; }
+    .weatherContain .weatherCard2 .city {
+      font-size: 1.6rem; }
+    .weatherContain .weatherCard2 .country {
+      font-size: 1.2rem; }
+    .weatherContain .weatherCard2 img {
+      width: 45%;
+      margin: auto; }
+    .weatherContain .weatherCard2 .temp {
+      font-size: 1.6rem; }
+    .weatherContain .weatherCard2 .condition {
+      font-size: 1.2rem; }
+
+.sportsContain {
+  margin: 0 auto;
+  width: 980px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .sportsContain img {
+    width: 400px; }
+
+.techContain {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto; }
+  .techContain .techArt {
+    width: 300px;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+    .techContain .techArt img {
+      width: 300px; }

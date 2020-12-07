@@ -1,0 +1,34 @@
+.main-carousel {
+  width: 80%;
+  margin: 60px auto;
+  height: 300px;
+  border-radius: 15px;
+  font-family: 'Fira Sans', sans-serif;
+  
+  h4{
+      margin-bottom: 6px;
+      text-align: right;
+  }
+
+  .carousel-cell {
+  width: 30%;
+  height: 250px;
+  margin-right: 10px;
+  border-radius: 5px;
+
+  img{
+      width: 500px;
+  }
+
+}
+
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  line-height: 400px;
+  font-size: 80px;
+  color: white;
+}
+
+}
+

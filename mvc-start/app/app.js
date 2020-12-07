@@ -8,11 +8,11 @@ function showText(data) {
 function initListeners() {
   $('nav a').click(function (e) {
     // //uses id to find target
-    // console.log('click', e.currentTarget.id);
+    
 
     // //uses jquery to find target
     // console.log('jquery', this.id);
-
+    // console.log('click', e.currentTarget.id);
     let btnId = this.id;
     $('.loader').css('display', 'block');
     MODEL.getText(showText);

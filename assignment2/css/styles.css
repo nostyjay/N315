@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html,
+body {
+  height: 100%; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px; }
+
+nav {
+  height: 50px;
+  background-color: black;
+  display: flex; }
+  nav a {
+    text-decoration: none;
+    color: white;
+    margin: auto; }
+
+.container {
+  background-color: burlywood;
+  display: flex;
+  width: 980px;
+  height: 100%;
+  flex-direction: column;
+  margin: 50px auto; }
+  .container h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center; }
+  .container img {
+    width: 980px; }
