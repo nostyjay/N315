@@ -6,7 +6,7 @@
 
 ####
 
-## Jungle Cook
+## Jungle Cook: https://in-info-web4.informatics.iupui.edu/~nj16/junglecook/
 
 #### DESCRIPTION:
 ##### Jungle cook is a CRUD application fitted to work on both personal computers
@@ -24,5 +24,3 @@
 ##### -- Signup implementation
 ##### -- Bug fixes
 ##### -- Correct Edit page functionalities
-
-Web4 Link: https://in-info-web4.informatics.iupui.edu/~nj16/junglecook/
