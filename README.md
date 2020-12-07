@@ -13,11 +13,19 @@
 ##### -- The site is currently only a template and has NO storage implementation
 ##### -- RECIPES WILL RESET ON PAGE RELOAD
 ##
+#### UNDER THE HOOD
+##### -- JavaScript
+##### -- JSON
+##### -- JQuery
+##### -- HTML, CSS/SCSS
+##### -- Sweet Alerts 2
+##
 #### TBD:
 ##### -- Storage implementation to keep users and recipes on reload
 ##### -- Signup implementation
 ##### -- Bug fixes
 ##### -- Correct Edit page functionalities
+##### -- Fix file attachment
 ##
 #### HOW IT WORKS:
 ##### On load, you will be brought to the home page. Use the navigation bar at the top of the
