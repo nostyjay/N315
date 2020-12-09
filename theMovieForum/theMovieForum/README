@@ -1,7 +1,9 @@
 ## The Movie Forum
+### https://in-info-web4.informatics.iupui.edu/~nj16/themovieforum/
 ##
 #### The movie forum is an application built using Angular 11 and the 
-#### Ionic Framework. All movie information is pulled from the omdb API.
+#### Ionic Framework and is optimized for mobile devices. All movie information is pulled
+#### from the omdb API.
 ##
 ## Basic functionality:
 #### The movie forum is an application that allows users to search endless
